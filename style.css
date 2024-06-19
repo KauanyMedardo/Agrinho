@@ -1,33 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
-
-nav{
-    background-color: #85B8CB;
+/* Estilos gerais para o body */
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-#logoreni{
-    height: 124px;
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #85B8CB;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilos para o logotipo do colégio */
+#logoreni {
+    height: 60px;
     width: auto;
     position: absolute;
-    right: 100px;
+    right: 20px;
+    top: 10px;
 }
 
-#teste{
+/* Estilos para o título principal */
+#teste {
     text-align: center;
     font-size: 36px;
-    font-family: ;
+    margin-top: 20px;
+    color: #333;
 }
 
-.fonte--bomita{
-    font-family: "Public Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-.conteiner{
+/* Estilos para o conteúdo principal */
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container article {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
 }
