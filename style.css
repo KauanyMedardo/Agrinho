@@ -94,7 +94,7 @@ header {
 }
 
 header h1 {
-    color: #698fd4;
+    color: #0f0f0f;
 }
 
 main {
@@ -103,7 +103,7 @@ main {
 }
 
 .objetivo {
-    background-color: #5f0808;
+    background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
