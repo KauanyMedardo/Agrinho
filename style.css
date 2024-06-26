@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
 
-/* Estilos gerais para o body */
 body {
     font-family: 'Public Sans', sans-serif;
     background-color: #f0f0f0;
@@ -8,7 +7,6 @@ body {
     padding: 0;
 }
 
-/* Estilos para a barra de navegação */
 nav {
     background-color: #85B8CB;
     text-align: center;
@@ -26,7 +24,6 @@ nav h1 {
     margin: 0;
 }
 
-/* Estilos para o logotipo do colégio */
 #logoreni {
     height: 60px;
     width: auto;
@@ -35,15 +32,13 @@ nav h1 {
     top: 10px;
 }
 
-/* Estilos para o título principal */
-#teste {
+#titulo--principal{
     text-align: center;
     font-size: 36px;
     margin-top: 20px;
     color: #333;
 }
 
-/* Estilos para o conteúdo principal */
 .container {
     display: flex;
     justify-content: space-around;
@@ -74,7 +69,6 @@ nav h1 {
     color: #666;
 }
 
-/--------2p----------/
 * {
     margin: 0;
     padding: 0;
