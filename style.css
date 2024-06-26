@@ -11,6 +11,8 @@ nav {
     background-color: #85B8CB;
     text-align: center;
     padding: 10px 0;
+    height: 130px;
+   
 }
 
 nav img {
@@ -19,9 +21,13 @@ nav img {
 }
 
 nav h1 {
-    display: inline-block;
     font-size: 24px;
-    margin: 0;
+    padding-top: 50px;
+    
+}
+#logoprogramacao{
+    position: absolute;
+    left: 20px;
 }
 
 #logoreni {
