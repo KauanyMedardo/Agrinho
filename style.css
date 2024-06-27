@@ -86,7 +86,7 @@ nav h1 {
     color: #000000;
 }
 
-
+/* secao objetivo */
 .objetivo {
     background-color: #fff;
     padding: 20px;
@@ -140,6 +140,11 @@ nav h1 {
     height: auto; 
   }
   
+  .imagemenor{
+    flex: 3; 
+    text-align: right; 
+  }
+
   p {
     text-align: left; 
   }
