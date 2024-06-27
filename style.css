@@ -118,3 +118,31 @@ main {
 .objetivo p {
     color: #666;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Alinha os elementos para os extremos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    max-width: 800px; /* Define a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container na página */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  .content {
+    flex: 1; /* Ocupa o espaço disponível */
+  }
+  
+  .image {
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: right; /* Alinha a imagem à direita dentro do seu container */
+  }
+  
+  .image img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse seu container */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  p {
+    text-align: left; /* Alinha o texto à esquerda dentro do seu container */
+  }
+  
