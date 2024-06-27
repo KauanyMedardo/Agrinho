@@ -113,7 +113,7 @@ main {
 .container {
     display: flex;
     justify-content: space-around; 
-    align-items: center; 
+  
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 20px auto; 
@@ -121,7 +121,7 @@ main {
     background-color: #fff;
     border-radius: 8px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-   text-align: left;
+
 }
 
 .container.single {
