@@ -17,15 +17,16 @@ body {
     
     line-height: 1.6;
     background-color: #f0f0f0;
-    padding: 20px;font-size: 18px;
+    padding: 20px;
+    font-size: 18px;
 }
 
 
 main {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
-    background-color: red;
-    text-align: left;
+    line-height: 1.5;
+
 }
 
 /*cabeçalho */
