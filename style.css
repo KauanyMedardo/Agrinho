@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
 
-body {
+* {
     font-family: 'Public Sans', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;font-size: 18px;
+}
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+
 }
 /*cabeçalho */
 nav {
@@ -45,8 +62,6 @@ nav h1 {
     color: #333;
 }
 
-
-
 .container article {
     flex: 1 1 45%;
     margin: 10px;
@@ -65,27 +80,7 @@ nav h1 {
     color: #000000;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    padding: 20px;font-size: 18px;
-}
-
-
-
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-
-}
 
 .objetivo {
     background-color: #fff;
