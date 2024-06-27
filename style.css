@@ -119,14 +119,14 @@ nav h1 {
 
 }
 
-.container.single {
+.mandala {
     justify-content: space-between;
     max-width: 800px; 
     padding: 20px; 
     text-align: left;
 }
 
-.content {
+.mandala__texto {
     flex: 1; 
 }
   
