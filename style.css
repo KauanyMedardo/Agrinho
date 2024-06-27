@@ -121,28 +121,28 @@ main {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Alinha os elementos para os extremos */
-    align-items: center; /* Centraliza verticalmente os elementos */
-    max-width: 800px; /* Define a largura máxima do container */
-    margin: 0 auto; /* Centraliza o container na página */
-    padding: 20px; /* Espaçamento interno */
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
   }
   
   .content {
-    flex: 1; /* Ocupa o espaço disponível */
+    flex: 1; 
   }
   
   .image {
-    flex: 1; /* Ocupa o espaço disponível */
-    text-align: right; /* Alinha a imagem à direita dentro do seu container */
+    flex: 1; 
+    text-align: right; 
   }
   
   .image img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse seu container */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
   }
   
   p {
-    text-align: left; /* Alinha o texto à esquerda dentro do seu container */
+    text-align: left; 
   }
   
