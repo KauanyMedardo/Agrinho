@@ -110,21 +110,21 @@ main {
 
 .container {
     display: flex;
-    justify-content: space-around; /* Por padrão, distribui os itens uniformemente ao redor */
-    align-items: center; /* Centraliza os itens verticalmente */
-    flex-wrap: wrap; /* Permite que os itens quebrem para a linha abaixo quando não couberem mais */
-    max-width: 1200px; /* Largura máxima do container */
-    margin: 20px auto; /* Margem externa */
-    padding: 20px; /* Preenchimento interno */
-    background-color: #fff; /* Cor de fundo */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;/
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .container.single {
-    justify-content: space-between; /* Layout space-between para versão única do container */
-    max-width: 800px; /* Reduz a largura máxima para 800px */
-    padding: 20px; /* Mantém o preenchimento interno */
+    justify-content: space-between;
+    max-width: 800px; 
+    padding: 20px; 
 }
 
   
