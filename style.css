@@ -108,7 +108,7 @@ main {
 .container {
     display: flex;
     justify-content: space-around; 
-    align-items: left; 
+    align-items: right; 
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 20px auto; 
