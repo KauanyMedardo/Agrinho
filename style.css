@@ -144,3 +144,8 @@ nav h1 {
   p {
     text-align: left; 
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria duas colunas de largura igual */
+    gap: 20px; /* Espaço entre as colunas */
+  }
