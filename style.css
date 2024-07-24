@@ -157,7 +157,7 @@ nav h1 {
   button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #1f62a1;
     color: white;
     border: none;
     border-radius: 4px;
@@ -165,5 +165,6 @@ nav h1 {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #fafafa;
+    color: #000000;
 }
