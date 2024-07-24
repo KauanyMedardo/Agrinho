@@ -124,7 +124,9 @@ nav h1 {
     max-width: 800px; 
     padding: 20px; 
     text-align: left;
-    background-color: red;
+}
+.mandala{
+    max-width: 800px;
 }
 
 .content {
