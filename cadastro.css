@@ -41,7 +41,7 @@ select{
 .enviar {
     width:40%;
     padding: 15px 0;
-    background: rgb(183, 17, 192);
+    background: rgb(21, 98, 150);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -52,6 +52,6 @@ select{
 }
 
 .enviar:hover {
-    background: rgb(95, 1, 81);
+    background: rgb(2, 63, 121);
     transform: scale(1.2);
 }
