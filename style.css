@@ -23,7 +23,7 @@ body {
 
 
 main {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     line-height: 1.5;
 
@@ -150,12 +150,7 @@ nav h1 {
   p {
     text-align: left; 
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Cria duas colunas de largura igual */
-    gap: 20px; /* Espaço entre as colunas */
-    max-width: 1200px;
-  }
+
   button {
     padding: 10px 20px;
     font-size: 16px;
