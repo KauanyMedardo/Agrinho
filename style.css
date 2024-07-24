@@ -5,15 +5,37 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
     line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
     font-size: 18px;
 }
 
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.5;
+
+}
+
+/*cabeçalho */
 nav {
-    background-color: #85b8cb;
+    background-color: #85B8CB;
     text-align: center;
     padding: 10px 0;
     height: 130px;
+   
 }
 
 nav img {
@@ -24,25 +46,32 @@ nav img {
 nav h1 {
     font-size: 24px;
     padding-top: 50px;
-    color: #333;
+    
+}
+#logoprogramacao{
+    position: absolute;
+    left: 20px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end; /* Ajustado para alinhar os itens à direita */
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#logoreni {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#titulo--principal{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
 }
 
 .container article {
     flex: 1 1 45%;
     margin: 10px;
+ 
 }
 
 .container h2 {
@@ -57,21 +86,7 @@ nav h1 {
     color: #000000;
 }
 
-.content {
-    flex: 1;
-    justify-content: center; /* Centraliza o texto na seção de irrigação */
-}
-
-.image {
-    flex: 1;
-    text-align: right;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-}
-
+/* secao objetivo */
 .objetivo {
     background-color: #fff;
     padding: 20px;
@@ -84,6 +99,7 @@ nav h1 {
     color: #333;
     margin-bottom: 10px;
     font-size: 28px;
+
 }
 
 .objetivo p {
@@ -91,7 +107,48 @@ nav h1 {
     font-size: 16px;
 }
 
-button {
+.container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: right; 
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+.container.single {
+    justify-content: space-between;
+    max-width: 800px; 
+    padding: 20px; 
+    text-align: left;
+}
+
+
+.content {
+    flex: 1; 
+}
+  
+  .image {
+    flex: 1; 
+    text-align: right; 
+  }
+  
+  .image img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+
+  p {
+    text-align: left; 
+  }
+
+  button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #1f62a1;
@@ -100,7 +157,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
     width: 300px;
-    margin-top: 10px; /* Ajuste para espaçamento do botão */
 }
 
 button:hover {
