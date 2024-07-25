@@ -174,3 +174,12 @@ button:hover {
     align-self: center;
     padding-left: 2em;
 }
+
+.texto100 {
+    flex: 1;
+    /* Ocupa o espaço restante */
+    padding-right: 20px;
+    /* Espaçamento à direita para separar da imagem */
+    align-self: center;
+    padding-left: 2em;
+}
