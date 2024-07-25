@@ -176,7 +176,7 @@ button:hover {
 }
 
 .texto100 {
-    flex: 1;
+    display: inline-block;
     /* Ocupa o espaço restante */
     padding-right: 20px;
     /* Espaçamento à direita para separar da imagem */
