@@ -176,10 +176,6 @@ button:hover {
 }
 
 .texto100 {
-    display: inline-block;
-    /* Ocupa o espaço restante */
-    padding-right: 20px;
-    /* Espaçamento à direita para separar da imagem */
-    align-self: center;
-    padding-left: 2em;
+    display: inline-block;    /* Ocupa o espaço restante */
+   
 }
