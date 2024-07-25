@@ -68,6 +68,11 @@ nav h1 {
     color: #333;
 }
 
+.container article {
+    flex: 1 1 45%;
+    margin: 10px;
+ 
+}
 
 .container h2 {
     font-size: 28px;
