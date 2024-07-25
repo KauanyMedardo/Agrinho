@@ -167,3 +167,10 @@ button:hover {
     background-color: #a89b9b;
     color: #000000;
 }
+
+.horta {
+    flex: 1;       /* Ocupa o espaço restante */
+    padding-right: 10px;        /* Espaçamento à direita para separar da imagem */
+    align-self: center;
+    padding-left: 2em;
+}
