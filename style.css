@@ -172,7 +172,7 @@ button:hover {
     flex: 1;       /* Ocupa o espaço restante */
     padding-right: 10px;        /* Espaçamento à direita para separar da imagem */
     align-self: center;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 
 .horta h3{
