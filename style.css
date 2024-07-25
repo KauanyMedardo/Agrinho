@@ -182,7 +182,7 @@ button:hover {
 }
 
 .texto100 {
-    display: inline-block;    /* Ocupa o espaço restante */
+    display: inline;    /* Ocupa o espaço restante */
 }
 
 .secao {
