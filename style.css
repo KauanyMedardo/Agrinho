@@ -175,6 +175,10 @@ button:hover {
     padding-left: 2em;
 }
 
+.horta h3{
+    font-size: 28px;
+}
+
 .texto100 {
     display: inline-block;    /* Ocupa o espaço restante */
    
