@@ -184,3 +184,23 @@ button:hover {
 .texto100 {
     display: inline;    /* Ocupa o espaço restante */
 }
+
+
+/*  hortas  */
+.containerhorta {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; /* Espaçamento negativo para corrigir margens internas */
+  }
+  .coluna {
+    flex: 1 0 0; /* Cresce conforme necessário, sem encolher, sem tamanho base */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total */
+  }
