@@ -5,16 +5,7 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    
+    text-align: center;
     line-height: 1.6;
     background-color: #f0f0f0;
     padding: 20px;
@@ -22,20 +13,24 @@ body {
 }
 
 
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    line-height: 1.5;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*cabeçalho */
+main {
+    max-width: 900px;
+    margin-left: 10%;
+    line-height: 1.5;
+}
+
+/* cabeçalho */
 nav {
     background-color: #85B8CB;
     text-align: center;
     padding: 10px 0;
     height: 130px;
-   
 }
 
 nav img {
@@ -46,11 +41,59 @@ nav img {
 nav h1 {
     font-size: 24px;
     padding-top: 50px;
-    
 }
-#logoprogramacao{
+
+p {
+    text-align: left;
+}
+
+button {
+    color: #FFF;
+    border: 2px solid rgb(0, 60, 255);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console",monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(0, 30, 130);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    color: black;
+  }
+
+  button:hover {
+    box-shadow: inset 400px 0 0 0 rgb(50, 100, 255);
+  }
+footer {
+    color: rgb(11, 5, 48);
+    height: 5em;
+    background-color: rgb(204, 212, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    line-height: 1.0;
+ text-align: center;
+}
+
+.horta {
+    flex: 1;
+    padding-right: 10px;
+    align-self: center;
+    padding-left: 1em;
+}
+
+#logoprogramacao {
     position: absolute;
     left: 20px;
+    height: 100px;
+    margin-top: 15px;
 }
 
 #logoreni {
@@ -61,7 +104,7 @@ nav h1 {
     top: 10px;
 }
 
-#titulo--principal{
+#titulo--principal {
     text-align: center;
     font-size: 36px;
     margin-top: 20px;
@@ -71,10 +114,10 @@ nav h1 {
 .container article {
     flex: 1 1 45%;
     margin: 10px;
- 
 }
 
-.container h2 {
+.container h2,
+.objetivo h2 {
     font-size: 28px;
     color: #14268f;
     margin-bottom: 10px;
@@ -97,13 +140,6 @@ nav h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.objetivo h2 {
-    color: #333;
-    margin-bottom: 10px;
-    font-size: 28px;
-
-}
-
 .objetivo p {
     color: #0b0b0b;
     font-size: 16px;
@@ -111,96 +147,177 @@ nav h1 {
 
 .container {
     display: flex;
-    justify-content: space-around; 
-    align-items: right; 
+    justify-content: space-around;
+    align-items: right;
     flex-wrap: wrap;
     max-width: 1200px;
-    margin: 10px auto; 
+    margin: 10px auto;
     padding: 10px;
     background-color: #fff;
-    border-radius: 8px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-direction: column;
-
 }
 
 .container.single {
     justify-content: space-between;
-    max-width: 800px; 
-    padding: 20px; 
+    max-width: 800px;
+    padding: 20px;
     text-align: left;
 }
 
+.espacamento {
+    margin-top: 20px;
+}
 
 .content {
-    flex: 1; 
+    flex: 1;
 }
-  
-  .image {
-    flex: 1; 
-    text-align: right; 
-    height: auto ;
+
+.image {
+    flex: 1;
+    text-align: right;
+    height: auto;
     width: 200px;
-  }
-  
-  .image img {
-    max-width: 100%; 
-    height: auto; 
-  }
-  
-
-  p {
-    text-align: left; 
-  }
-
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #1f62a1;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 300px;
 }
 
-button:hover {
-    background-color: #a89b9b;
-    color: #000000;
+.image img {
+    max-width: 100%;
+    height: auto;
 }
 
-.horta {
-    flex: 1;       /* Ocupa o espaço restante */
-    padding-right: 10px;        /* Espaçamento à direita para separar da imagem */
-    align-self: center;
-    padding-left: 1em;
-}
-
-.horta h3{
+.horta h3 {
     font-size: 22px;
     font-weight: 700px;
 }
 
 .texto100 {
-    display: inline;    /* Ocupa o espaço restante */
+    display: inline;
 }
 
-
-/*  hortas  */
 .containerhorta {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
 
-  .linha {
+.linha {
     display: flex;
     flex-wrap: wrap;
-    margin: -10px; /* Espaçamento negativo para corrigir margens internas */
-  }
-  .coluna {
-    flex: 1 0 0; /* Cresce conforme necessário, sem encolher, sem tamanho base */
-    padding: 10px; /* Espaçamento interno */
-    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total */
-  }
+    margin: -10px;
+}
+
+.coluna {
+    flex: 1 1 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem img {
+    height: auto;
+    width: 250px;
+}
+
+.coluna img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tamanho {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.rodape{
+    padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #logoreni {
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+    nav h1 {
+        font-size: 20px;
+        padding-top: 55px;
+        padding-bottom: 5px ;
+    }
+    
+
+    #logoprogramacao {
+        height: 60px;
+        margin-top: 0;
+    }
+
+    #logoreni {
+        height: 40px;
+        top: 5px;
+    }
+
+    .container,
+    .objetivo {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .imagem img,
+    .coluna img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tamanho {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #logoreni {
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+    nav h1 {
+        font-size: 20px;
+        padding-top: 55px;
+        padding-bottom: 5px ;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .container h2,
+    .objetivo h2 {
+        font-size: 24px;
+    }
+
+    .container p,
+    .objetivo p {
+        font-size: 14px;
+    }
+}
