@@ -6,4 +6,4 @@
 ### Curso Técnico em Desenvolvimento de Sistemas
 ##P ágina do vercel: agrinho-lyart.vercel.app
 ## Página do github pages: https://kauanymedardo.github.io/Agrinho/
-## imagem agrinho: https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg
+![Imagem Agrinho](https://www.sistemafaep.org.br/wp-content/uploads/2021/07/agrinho_500x1280-2.jpg)
