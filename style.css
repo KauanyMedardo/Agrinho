@@ -234,12 +234,16 @@ footer p {
 }
 
 .tamanho {
-    width: 1200px;
+    width: 100%;
     display: block;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 10px;
    
+}
+
+.img100{
+    width: 100%;
 }
 .rodape{
     padding-top: 20px;
