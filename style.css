@@ -234,17 +234,13 @@ footer p {
 }
 
 .tamanho {
-    width: 100%;
+    width: 1200px;
     display: block;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 10px;
-   
 }
 
-.mandala {
-    height: 500px;
-}
 
 .rodape{
     padding-top: 20px;
