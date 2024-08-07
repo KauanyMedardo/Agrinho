@@ -10,6 +10,7 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
 
@@ -23,7 +24,7 @@ main {
     max-width: 900px;
     margin-left: 10%;
     line-height: 1.5;
-    margin: 0 auto ;
+
 }
 
 /* cabeçalho */
