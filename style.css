@@ -487,7 +487,10 @@ footer p {
     margin-top: 25px;
     margin-bottom: 10px;
 }
-
+ .img100{
+    width: 100%;
+    height: auto;
+ }
 
 .rodape{
     padding-top: 20px;
