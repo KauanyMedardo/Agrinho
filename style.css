@@ -177,17 +177,6 @@ footer p {
 }
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
 
-/*body {
-    font-family: 'Public Sans', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    padding: 20px;
-    font-size: 18px;
-}*/
 body {
     font-family: 'Public Sans', sans-serif;
     background-color: #f0f0f0;
@@ -198,10 +187,8 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     font-size: 18px;
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
-    min-height: 100vh;
+}
+
 
 * {
     margin: 0;
@@ -337,14 +324,6 @@ footer p {
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-  /*.container {
     display: flex;
     justify-content: space-around;
     align-items: right;
@@ -355,7 +334,7 @@ footer p {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-direction: column;*/
+    flex-direction: column;
 }
 
 .container.single {
