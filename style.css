@@ -410,14 +410,6 @@ footer p {
     padding-bottom: 10px;
 }
 
-.tamanho {
-    width: 1200px;
-    display: block;
-    margin: auto ;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
 
 .rodape{
     padding-top: 20px;
@@ -460,7 +452,9 @@ footer p {
     flex: 1 1 250px;
     padding: 10px;
     box-sizing: border-box;
-    display: flex;
+    display: flex;;
+    height: auto;
+    width: 200px;
     flex-direction: column;
 }
 
@@ -487,6 +481,7 @@ footer p {
     margin-top: 25px;
     margin-bottom: 10px;
 }
+
 
 
 .rodape{
