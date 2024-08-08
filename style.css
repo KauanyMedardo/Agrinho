@@ -481,17 +481,13 @@ footer p {
 }
 
 .tamanho {
-    width: 100%;
+    width: 1200px;
     display: block;
     margin: auto ;
     margin-top: 25px;
     margin-bottom: 10px;
 }
- .img100{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
+
 
 .rodape{
     padding-top: 20px;
